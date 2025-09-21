@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MIST - About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://mist-v3.vercel.app/images/logoLight.png" alt="MIST Logo" class="logo-img">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="glazing.html">Glazing MIST</a>
+      <a href="about.html" class="active">About Us</a>
+    </nav>
+  </header>
+
+  <main class="about">
+    <button id="info-btn">press me pls</button>
+    <p class="hint">clicking on this button shows your name, registration number and phone number in a JS alert</p>
+  </main>
+
+  <script>
+    document.getElementById("info-btn").addEventListener("click", function() {
+      alert("Name: Chaithali Nairy\nReg No: 240962012\nPhone: 9876543210");
+    });
+  </script>
+</body>
+</html>
